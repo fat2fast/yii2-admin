@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\classes;
+namespace fat2fast\admin\classes;
 
 use Yii;
 use yii\db\Connection;
@@ -25,7 +25,7 @@ use yii\base\BaseObject;
  * or use [[\Yii::$container]]
  * 
  * ~~~
- * Yii::$container->set('mdm\admin\classes\Configs',[
+ * Yii::$container->set('fat2fast\admin\classes\Configs',[
  *     'db' => 'customDb',
  *     'menuTable' => 'admin_menu',
  * ]);

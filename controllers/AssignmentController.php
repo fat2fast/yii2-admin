@@ -1,18 +1,18 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
 use yii\rest\Controller;
 use yii\data\ActiveDataProvider;
 use yii\web\NotFoundHttpException;
-use mdm\admin\classes\MenuHelper;
+use fat2fast\admin\classes\MenuHelper;
 use yii\helpers\ArrayHelper;
 
 /**
  * AssignmentController implements the CRUD actions for Assignment model.
  *
- * @property \mdm\admin\Module $module
+ * @property \fat2fast\admin\Module $module
  * 
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0

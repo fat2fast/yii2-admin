@@ -1,17 +1,17 @@
 <?php
 
-namespace mdm\admin\classes;
+namespace fat2fast\admin\classes;
 
 use Yii;
 use yii\caching\TagDependency;
-use mdm\admin\models\Menu;
+use fat2fast\admin\models\Menu;
 
 /**
  * MenuHelper used to generate menu depend of user role.
  * Usage
  * 
  * ~~~
- * use mdm\admin\classes\MenuHelper;
+ * use fat2fast\admin\classes\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([

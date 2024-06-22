@@ -2,7 +2,7 @@ RBAC Manager for Yii 2
 ======================
 > **Warning: This version was no longer maintained. Please use version 2.x.**
 > 
-> `composer require mdmsoft/yii2-admin "~2.0"`
+> `composer require fat2fast/yii2-admin "~2.0"`
 
 Documentation
 -------------
@@ -23,33 +23,33 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require mdmsoft/yii2-admin "~3.0"
+php composer.phar require fat2fast/yii2-admin "~3.0"
 ```
 
 or for the dev-master
 
 ```
-php composer.phar require mdmsoft/yii2-admin "dev-3.master"
+php composer.phar require fat2fast/yii2-admin "dev-3.master"
 ```
 
 Or, you may add
 
 ```
-"mdmsoft/yii2-admin": "~2.0"
+"fat2fast/yii2-admin": "~2.0"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.
 
 ### Install From the Archive
 
-Download the latest release from here [releases](https://github.com/mdmsoft/yii2-admin/releases), then extract it to your project.
+Download the latest release from here [releases](https://github.com/fat2fast/yii2-admin/releases), then extract it to your project.
 In your application config, add the path alias for this extension.
 
 ```php
 return [
     ...
     'aliases' => [
-        '@mdm/admin' => 'path/to/your/extracted',
+        '@fat2fast/admin' => 'path/to/your/extracted',
         // for example: '@mdm/admin' => '@app/extensions/mdm/yii2-admin-3.0.0',
         ...
     ]
@@ -69,7 +69,7 @@ return [
     ],
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'fat2fast\admin\Module',
             ...
         ]
         ...
@@ -82,7 +82,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'mdm\admin\classes\AccessControl',
+        'class' => 'fat2fast\admin\classes\AccessControl',
         'allowActions' => [
             'site/*',
             'admin/*',
@@ -110,18 +110,10 @@ http://localhost/path/to/index.php/admin#/assignment
 
 To use the menu manager (optional), execute the migration here:
 ```
-yii migrate --migrationPath=@mdm/admin/migrations
+yii migrate --migrationPath=@fat2fast/admin/migrations
 ```
 
 If you use database (class 'yii\rbac\DbManager') to save rbac data, execute the migration here:
 ```
 yii migrate --migrationPath=@yii/rbac/migrations
 ```
-
-Upgrade From 2.x
-----------------
-
-- All classes under namespace `mdm\admin\components` moved to `mdm\admin\classes`.
-So you must change it.
-- Version 3.x only work with enable prety url.
-- You must add module to application bootstrap in config.

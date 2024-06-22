@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 /**
  * Description of DefaultController

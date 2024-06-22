@@ -1,12 +1,12 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\models\Menu;
+use fat2fast\admin\models\Menu;
 use yii\rest\Controller;
 use yii\web\NotFoundHttpException;
-use mdm\admin\classes\MenuHelper;
+use fat2fast\admin\classes\MenuHelper;
 use yii\data\ActiveDataProvider;
 
 /**

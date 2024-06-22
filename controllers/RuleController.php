@@ -1,12 +1,12 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\models\BizRule;
+use fat2fast\admin\models\BizRule;
 use yii\rest\Controller;
 use yii\web\NotFoundHttpException;
-use mdm\admin\classes\MenuHelper;
+use fat2fast\admin\classes\MenuHelper;
 
 /**
  * Description of RuleController

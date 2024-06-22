@@ -1,12 +1,12 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\classes\MenuHelper;
+use fat2fast\admin\classes\MenuHelper;
 use yii\caching\TagDependency;
 use yii\rest\Controller;
-use mdm\admin\classes\RouteRule;
+use fat2fast\admin\classes\RouteRule;
 use yii\helpers\Inflector;
 use yii\helpers\VarDumper;
 use Exception;

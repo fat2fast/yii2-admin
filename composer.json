@@ -1,17 +1,17 @@
 {
-    "name": "mdmsoft/yii2-admin",
+    "name": "fat2fast/yii2-admin",
     "description": "RBAC Auth manager for Yii2 ",
-    "keywords": ["yii", "admin", "auth", "rbac", "angularjs", "rest"],
+    "keywords": ["yii", "admin", "auth", "rbac", "angularjs", "rest","fat2fast","f2f"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/mdmsoft/yii2-admin/issues",
-        "source": "https://github.com/mdmsoft/yii2-admin"
+        "issues": "https://github.com/fat2fast/yii2-admin/issues",
+        "source": "https://github.com/fat2fast/yii2-admin"
     },
     "authors": [
         {
-            "name": "Misbahul Munir",
-            "email": "misbahuldmunir@gmail.com"
+            "name": "Fat Too Fast",
+            "email": "phat.pnh2022@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mdm\\admin\\": ""
+            "fat2fast\\admin\\": ""
         }
     },
     "extra": {

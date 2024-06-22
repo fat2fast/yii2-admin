@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace fat2fast\admin;
 
 use Yii;
 use yii\base\BootstrapInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\models\AuthItem;
+use fat2fast\admin\models\AuthItem;
 use yii\rest\Controller;
 use yii\web\NotFoundHttpException;
 use yii\rbac\Item;
-use mdm\admin\classes\MenuHelper;
+use fat2fast\admin\classes\MenuHelper;
 
 /**
  * AuthItemController implements the CRUD actions for AuthItem model.

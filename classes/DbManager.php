@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\classes;
+namespace fat2fast\admin\classes;
 
 use Yii;
 use yii\db\Connection;

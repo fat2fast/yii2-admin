@@ -1,7 +1,7 @@
 <?php
 
 use yii\db\Schema;
-use mdm\admin\classes\Configs;
+use fat2fast\admin\classes\Configs;
 
 /**
  * Migration table of table_menu

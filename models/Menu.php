@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
 use Yii;
-use mdm\admin\classes\Configs;
+use fat2fast\admin\classes\Configs;
 use yii\db\ActiveRecord;
 
 /**

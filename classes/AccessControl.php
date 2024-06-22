@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\classes;
+namespace fat2fast\admin\classes;
 
 use Yii;
 use yii\web\User;
@@ -19,7 +19,7 @@ use yii\web\ForbiddenHttpException;
  *
  * ~~~
  * 'as access' => [
- *     'class' => 'mdm\admin\classes\AccessControl',
+ *     'class' => 'fat2fast\admin\classes\AccessControl',
  *     'allowActions' => ['site/login', 'site/error']
  * ]
  * ~~~

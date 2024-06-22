@@ -12,6 +12,8 @@ use yii\base\Model;
  */
 class Route extends Model
 {
+    const PREFIX_ADVANCED = '@';
+    const PREFIX_BASIC = '/';
     /**
      * @var string Route value. 
      */

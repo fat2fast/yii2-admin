@@ -9,10 +9,10 @@ use fat2fast\admin\models\Menu;
 /**
  * MenuHelper used to generate menu depend of user role.
  * Usage
+ *  use yii\bootstrap\Nav;
  * 
  * ~~~
  * use fat2fast\admin\classes\MenuHelper;
- * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([
  *    'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id)
@@ -41,7 +41,7 @@ use fat2fast\admin\models\Menu;
  */
 class MenuHelper
 {
-    const CACHE_TAG = 'mdm.admin.menu';
+    const CACHE_TAG = 'fat2fast.admin.menu';
 
     /**
      * Use to get assigned menu of user.

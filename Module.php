@@ -31,7 +31,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
             Yii::$app->i18n->translations['rbac-admin'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath' => '@mdm/admin/messages'
+                'basePath' => '@fat2fast/admin/messages'
             ];
         }
     }

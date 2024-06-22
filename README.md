@@ -2,7 +2,7 @@ RBAC Manager for Yii 2
 ======================
 > **Warning: This version was no longer maintained. Please use version 2.x.**
 > 
-> `composer require fat2fast/yii2-admin "~2.0"`
+> `composer require fat2fast/yii2-admin "~1.0"`
 
 Documentation
 -------------
@@ -23,19 +23,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require fat2fast/yii2-admin "~3.0"
-```
-
-or for the dev-master
-
-```
-php composer.phar require fat2fast/yii2-admin "dev-3.master"
-```
-
-Or, you may add
-
-```
-"fat2fast/yii2-admin": "~2.0"
+php composer.phar require fat2fast/yii2-admin "~1.0"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.

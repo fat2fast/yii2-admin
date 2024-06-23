@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
+use fat2fast\admin\components\Configs;
+use fat2fast\admin\components\Helper;
 use Yii;
 
 /**
@@ -12,7 +12,7 @@ use Yii;
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 2.5
  */
-class Assignment extends \mdm\admin\BaseObject
+class Assignment extends \fat2fast\admin\BaseObject
 {
     /**
      * @var integer User id

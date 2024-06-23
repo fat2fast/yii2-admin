@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace fat2fast\admin\models\searchs;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Configs;
 use yii\rbac\Item;
 
 /**

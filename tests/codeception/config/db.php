@@ -14,16 +14,16 @@
  */
 $databases = [
     'mysql' => [
-        'dsn' => 'mysql:host=127.0.0.1;dbname=mdm_admin_test',
+        'dsn' => 'mysql:host=127.0.0.1;dbname=f2f_admin_test',
         'username' => 'travis',
         'password' => '',
     ],
     'sqlite' => [
         //'dsn' => 'sqlite::memory:',
-        'dsn' => 'sqlite:@runtime/mdm_admin_test.sqlite',
+        'dsn' => 'sqlite:@runtime/f2f_admin_test.sqlite',
     ],
     'pgsql' => [
-        'dsn' => 'pgsql:host=localhost;dbname=mdm_admin_test;port=5432;',
+        'dsn' => 'pgsql:host=localhost;dbname=f2f_admin_test;port=5432;',
         'username' => 'postgres',
         'password' => 'postgres',
     ],

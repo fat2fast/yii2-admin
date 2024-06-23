@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\form\ChangePassword;
-use mdm\admin\models\form\Login;
-use mdm\admin\models\form\PasswordResetRequest;
-use mdm\admin\models\form\ResetPassword;
-use mdm\admin\models\form\Signup;
-use mdm\admin\models\searchs\User as UserSearch;
-use mdm\admin\models\User;
+use fat2fast\admin\components\UserStatus;
+use fat2fast\admin\models\form\ChangePassword;
+use fat2fast\admin\models\form\Login;
+use fat2fast\admin\models\form\PasswordResetRequest;
+use fat2fast\admin\models\form\ResetPassword;
+use fat2fast\admin\models\form\Signup;
+use fat2fast\admin\models\searchs\User as UserSearch;
+use fat2fast\admin\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\UserException;
@@ -52,7 +52,7 @@ class UserController extends Controller
             if (Yii::$app->has('mailer') && ($mailer = Yii::$app->getMailer()) instanceof BaseMailer) {
                 /* @var $mailer BaseMailer */
                 $this->_oldMailPath = $mailer->getViewPath();
-                $mailer->setViewPath('@mdm/admin/mail');
+                $mailer->setViewPath('@fat2fast/admin/mail');
             }
             return true;
         }

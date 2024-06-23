@@ -1,6 +1,6 @@
 <?php
 
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Configs;
 
 /**
  * Migration table of table_menu

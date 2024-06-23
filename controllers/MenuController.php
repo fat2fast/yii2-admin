@@ -1,14 +1,14 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\models\Menu;
-use mdm\admin\models\searchs\Menu as MenuSearch;
+use fat2fast\admin\models\Menu;
+use fat2fast\admin\models\searchs\Menu as MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use mdm\admin\components\Helper;
+use fat2fast\admin\components\Helper;
 
 /**
  * MenuController implements the CRUD actions for Menu model.

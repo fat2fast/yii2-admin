@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
 use Exception;
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\components\RouteRule;
+use fat2fast\admin\components\Configs;
+use fat2fast\admin\components\Helper;
+use fat2fast\admin\components\RouteRule;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\VarDumper;
@@ -16,9 +16,9 @@ use yii\helpers\VarDumper;
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0
  */
-class Route extends \mdm\admin\BaseObject
+class Route extends \fat2fast\admin\BaseObject
 {
-    const CACHE_TAG = 'mdm.admin.route';
+    const CACHE_TAG = 'fat2fast.admin.route';
 
     const PREFIX_ADVANCED = '@';
     const PREFIX_BASIC = '/';

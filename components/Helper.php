@@ -1,8 +1,8 @@
 <?php
 
-namespace mdm\admin\components;
+namespace fat2fast\admin\components;
 
-use mdm\admin\models\Route;
+use fat2fast\admin\models\Route;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\ArrayHelper;

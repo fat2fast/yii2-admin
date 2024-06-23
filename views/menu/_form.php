@@ -2,12 +2,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use mdm\admin\models\Menu;
+use fat2fast\admin\models\Menu;
 use yii\helpers\Json;
-use mdm\admin\AutocompleteAsset;
+use fat2fast\admin\AutocompleteAsset;
 
 /* @var $this yii\web\View */
-/* @var $model mdm\admin\models\Menu */
+/* @var $model fat2fast\admin\models\Menu */
 /* @var $form yii\widgets\ActiveForm */
 AutocompleteAsset::register($this);
 $opts = Json::htmlEncode([

@@ -1,8 +1,8 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
-use mdm\admin\components\ItemController;
+use fat2fast\admin\components\ItemController;
 use yii\rbac\Item;
 
 /**

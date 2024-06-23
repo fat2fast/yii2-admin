@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
 use Yii;
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Configs;
 use yii\db\Query;
 
 /**

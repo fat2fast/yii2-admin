@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\components;
+namespace fat2fast\admin\components;
 
 use Yii;
 use yii\rbac\Rule;

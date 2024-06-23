@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
 use Yii;
 use yii\rbac\Rule;
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Configs;
 
 /**
  * BizRule

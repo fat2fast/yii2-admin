@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace fat2fast\admin;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ class AnimateAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@mdm/admin/assets';
+    public $sourcePath = '@fat2fast/admin/assets';
     /**
      * @inheritdoc
      */

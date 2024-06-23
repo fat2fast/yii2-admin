@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models;
+namespace fat2fast\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\controllers\AssignmentController;
-use mdm\admin\Module;
+use fat2fast\admin\components\Configs;
+use fat2fast\admin\components\Helper;
+use fat2fast\admin\controllers\AssignmentController;
+use fat2fast\admin\Module;
 use Yii;
 use yii\base\Model;
 use yii\helpers\Json;

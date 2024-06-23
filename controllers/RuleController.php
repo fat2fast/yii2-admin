@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace fat2fast\admin\controllers;
 
 use Yii;
-use mdm\admin\models\BizRule;
+use fat2fast\admin\models\BizRule;
 use yii\web\Controller;
-use mdm\admin\models\searchs\BizRule as BizRuleSearch;
+use fat2fast\admin\models\searchs\BizRule as BizRuleSearch;
 use yii\filters\VerbFilter;
 use yii\web\NotFoundHttpException;
-use mdm\admin\components\Helper;
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Helper;
+use fat2fast\admin\components\Configs;
 
 /**
  * Description of RuleController

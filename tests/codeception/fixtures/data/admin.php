@@ -1,13 +1,13 @@
 <?php
 
-use mdm\admin\components\Configs;
+use fat2fast\admin\components\Configs;
 
 /* @var $this tests\codeception\fixtures\AdminFixture */
 
 $migrations = [
     'm140506_102106_rbac_init' => '@yii/rbac/migrations',
-    'm140602_111327_create_menu_table' => '@mdm/admin/migrations',
-    'm160312_050000_create_user' => '@mdm/admin/migrations',
+    'm140602_111327_create_menu_table' => '@fat2fast/admin/migrations',
+    'm160312_050000_create_user' => '@fat2fast/admin/migrations',
 ];
 
 $command = $this->db->createCommand();
@@ -42,7 +42,7 @@ if ($schema->getTableSchema($authManager->ruleTable)) {
     $command->dropTable($authManager->ruleTable)->execute();
 }
 
-// mdm/admin
+// fat2fast/admin
 if ($schema->getTableSchema(Configs::menuTable())) {
     $command->dropTable(Configs::menuTable())->execute();
 }
